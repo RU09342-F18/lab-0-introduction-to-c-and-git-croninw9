@@ -26,26 +26,37 @@
 int math(int num1, int num2, char Operator)
 {
     switch(Operator)
+    // Addition
     case'+':
         return num1 + num2;
+    //Subtraction
     case'-':
         return num1 - num2;
+    //Multplication
     case'*':
         return num1 * num2;
+    //Division
     case'/':
         return num1 / num2;
+    //Modulus
     case'%':
         return num1 % num2;
+    //Left Shift
     case'<':
         return num1 << num2;
+    //Right Shift
     case'>':
         return num1 >> num2;
+    //Bitwise And
     case'&':
         return num1 & num2;
+    //Bitwise Or
     case'|':
         return num1 | num2;
+    //Bitwise Xor
     case'^':
         return num1 ^ num2;
+    //Bitwise Inverse
     case'~':
         return ~num1;
     default:
