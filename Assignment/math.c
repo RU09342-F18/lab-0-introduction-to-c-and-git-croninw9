@@ -1,6 +1,8 @@
 /*
     Name: math.c
     Author: William Cronin
+    Date created: 09/09/2018
+    Date of last revision: 09/10/2018
     Description: Apply a math operation to num1 and num2
 
     List of Operations:
@@ -18,6 +20,8 @@
 
 
 */
+#include <stdio>
+#include "math.h"
 
 int math(int num1, int num2, char Operator)
 {
