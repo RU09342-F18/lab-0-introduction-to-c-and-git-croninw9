@@ -2,8 +2,8 @@
  * math.h
  *
  *  Created on: Aug 22, 2017
- * 	Last Edited: Sept 7, 2018
- *      Author: Russell Trafford
+ * 	Last Edited: Sept 10, 2018
+ *      Author: Will Cronin
  */
 
 /* Your assignment is to take the math function and implement at least the following functions:
@@ -27,3 +27,4 @@
 int math(int num1, int num2, char Operator);
 
 #endif /* MATH_H_ */
+0
