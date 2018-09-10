@@ -2,7 +2,7 @@
 Performs a desired math operation using two integers (num1 and num2) 
 
 # Variables Used
-* Integers - Num1 and Num2 represent the integers the user wishes to perform an operation on
+* Integer - Num1 and Num2 represent the integers the user wishes to perform an operation on
 * Character - Operator represents the desired operation to be performed on the inputted integers
  
 # Operations available:
