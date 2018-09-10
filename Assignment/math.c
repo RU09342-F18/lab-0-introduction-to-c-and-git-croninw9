@@ -9,8 +9,8 @@
     + Add (num1 + num2)
     - Subtract (num1 - num2)
     * Multiply (num1 * num2)
-    / Divide (num1 / num2)
-    % Modulus (num1 % num2)
+    / Divide (num1 / num2) if num2 is equal to zero, the operation returns a zero
+    % Modulus (num1 % num2) if num2 is equal to zero, the operation returns a zero
     < Left Shift (num1 << num2)
     > Right Shift (num1 >> num2)
     & Bitwise AND (num1 & num2)
@@ -35,12 +35,26 @@ int math(int num1, int num2, char Operator)
     //Multplication
     case'*':
         return num1 * num2;
-    //Division
+    //Division (if num2 is equal to zero, the operation returns a zero)
     case'/':
+    if(num2 != 0)
+    {
         return num1 / num2;
-    //Modulus
+    }
+    else 
+    {
+        return 0;
+    }
+    //Modulus (if num2 is equal to zero, the operation returns a zero)
     case'%':
+    if(num2 != 0)
+    {
         return num1 % num2;
+    }
+    else 
+    {
+        return 0;
+    }
     //Left Shift
     case'<':
         return num1 << num2;
