@@ -29,12 +29,15 @@ int math(int num1, int num2, char Operator)
     // Addition
     case'+':
         return num1 + num2;
+    
     //Subtraction
     case'-':
         return num1 - num2;
+    
     //Multplication
     case'*':
         return num1 * num2;
+    
     //Division (if num2 is equal to zero, the operation returns a zero)
     case'/':
     if(num2 != 0)
@@ -45,6 +48,7 @@ int math(int num1, int num2, char Operator)
     {
         return 0;
     }
+    
     //Modulus (if num2 is equal to zero, the operation returns a zero)
     case'%':
     if(num2 != 0)
@@ -55,24 +59,31 @@ int math(int num1, int num2, char Operator)
     {
         return 0;
     }
+    
     //Left Shift
     case'<':
         return num1 << num2;
+    
     //Right Shift
     case'>':
         return num1 >> num2;
+    
     //Bitwise And
     case'&':
         return num1 & num2;
+    
     //Bitwise Or
     case'|':
         return num1 | num2;
+    
     //Bitwise Xor
     case'^':
         return num1 ^ num2;
+    
     //Bitwise Inverse
     case'~':
         return ~num1;
+    
     default:
         printf("Please enter a valid operation");
         return 0;
