@@ -9,8 +9,8 @@ Performs a desired math operation using two integers (num1 and num2) and a chara
 * '+' - Add (num1 + num2) 
 * '-' - Subtract (num1 - num2) 
 * '*' - Multiply (num1 * num2)
-* '/' - Divide (num1 / num2) also returns a zero if num2 = 0
-* '%' - Modulus (num1 % num2) also returns a zero if num2 = 0
+* '/' - Divide (num1 / num2) returns a zero if num2 = 0
+* '%' - Modulus (num1 % num2) returns a zero if num2 = 0
 * '<' - Leftshift (num1 << num2)
 * '>' - Rightshift (num1 >> num2)
 * '&' - And (num1 & num2)
